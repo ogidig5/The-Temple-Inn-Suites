@@ -1,0 +1,364 @@
+body {
+  font-family: 'Quicksand', 'sans-serif';
+}
+
+.headerItems {
+  background-color: aquamarine;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  /* height: fit-content; */
+}
+
+/*.....Social Networks Section.....*/
+.social {
+  display: flex;
+  /* order: 1; */
+  padding-top: 10px;
+}
+.twitter {
+  padding-left: 5px;
+}
+
+/*.....Navigation Section.....*/
+.activepage {
+  background-color: aqua;
+  border-radius: 5px;
+  color: black;
+  border: none;
+}
+nav button {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 1.8rem;
+  color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: x-small;
+}
+nav ul li a {
+  display: block;
+  padding: 0.6rem 2vw;
+  text-decoration: none;
+  color: black;
+  width:5rem;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+.headerImage {
+  width: 120px;
+}
+/*-----MAIN------*/
+
+/* .bed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 90%;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px black;
+} */
+div.bed {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.bed_container {
+  text-align: center;
+  padding: 10px 20px;
+}
+.bed img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 5%;
+  box-shadow:5px 5px 5px slategray;
+}
+.bed-button {
+  display: inline-block;
+  padding: 5px 5px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: skyblue;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #0d5be1;
+}
+
+.bed-button:hover {background-color: aquamarine}
+
+.bed-button:active {
+  background-color: blue;
+  color: #fff;
+  box-shadow: 0 5px black;
+  transform: translateY(5px);
+}
+
+#bed-heading {
+  width: 70%;
+  box-shadow: none;
+  border: 3px outset grey;
+  font-weight: bold;
+}
+
+.bed-heading {
+  font-weight: bold;
+}
+/*.....Temple Display Section.....*/
+#temples {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 90%;
+  background-color: #0d5be1;
+  text-align: center;
+  border-radius: 5px;
+}
+#temples section {
+  background-color: skyblue;
+  color: black;
+  font-weight: bold;
+  border-radius: 5%;
+  width: 97%;
+  margin: 0 auto;
+}
+#temples h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 20pt;
+}
+
+#temples img {
+  width: 90%;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px black;
+}
+#temples img:hover {
+  box-shadow: 0 0 50px blue;
+}
+
+.temple-address {
+  padding-top: 0.5em;
+  border-top: 3px solid grey;
+}
+
+#temple-3 {
+  display: none;
+}
+.temple-button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px outset grey;
+  border-radius: 10px;
+  padding: .5rem;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+/*....Weather Card...*/
+#weather {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-style: groove;
+  padding: 5px;
+  background-color: #2e5090;
+  color: black;
+  font-weight: bold;
+  border-radius: 5%;
+  color:#fff
+}
+#weather p {
+  text-align: center;
+}
+#weather h2 {
+  text-align: center;
+  font-size: x-large;
+  margin-top: 0.5rem;
+}
+
+#description {
+  display: block;
+  font-size: 16pt;
+  font-style: italic;
+  padding-bottom: 0.4em;
+  margin-bottom: 0.5em;
+  border-bottom: 4px solid black;
+}
+
+#weather table {
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid black;
+}
+#weather-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid black;
+  background-color: aquamarine;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+/*...Featured Temple....*/
+div.nairobiTemple {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.nairobiContainer {
+  text-align: center;
+  padding: 10px 20px;
+  font-weight:500;
+}
+.nairobiTemple img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 5%;
+  box-shadow:5px 5px 5px slategray;
+}
+/*-----3 day Weather Forecast-------*/
+
+.icons {
+  height: fit-content;
+  margin: auto;
+  border: 5px outset white;
+  border-radius: 10px;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #00FFFF;
+}
+
+#img2,
+#img3,
+#img4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid black;
+  background-color: #0080FE;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+.weather {
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.temparature, .condition, .humidity {
+  text-align: center;
+  border-radius: 5px;
+}
+
+#dayOne {
+  display: none;
+}
+
+#weatherContainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  width: 80%;
+  border-style: groove;
+  padding: 5px;
+  background-color: #00FF7F;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.weatherForecast {
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+/*----Testimonials-----*/
+#testimonials img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 3px outset goldenrod
+}
+figcaption {
+  text-align: center;
+}
+#testimony {
+  text-align: center;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 20pt;
+}
+/*-----Footer------*/
+footer, iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div, iframe {
+  border-top: 2px solid black;
+  margin-top: 10px;
+}
+.footer3 {
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  padding-top: 10px;
+}

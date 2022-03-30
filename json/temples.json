@@ -1,0 +1,125 @@
+{
+  "temples": [
+    {
+      "name": "Abba Nigeria Temple",
+      "address": "72-80-Okpu-Umuobo Rd",
+      "phone": "(234)80-3903-4810",
+      "status": "closed",
+      "website": "https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng",
+      "image": "templeinnphotos/aba.jpg",
+      "announced": "2nd April, 2000",
+      "ground": "23rd February, 2002",
+      "dedicated": "7th August 2005"
+    },
+    {
+      "name": "Boise Idaho Temple",
+      "address": "1211 S Cole Rd",
+      "phone": "(1) 208-322-4422",
+      "status": "closed",
+      "website": "https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng",
+      "image": "templeinnphotos/boise_idaho.jpg",
+      "announced": "1 March 1982",
+      "ground": "8 December 1982",
+      "dedicated": "25 May 1984"
+    },
+    {
+      "name": "Bern Switzerland Temple",
+      "address": "Tempelstrasse 2 CH-3052 Zollikofen",
+      "phone": "(41) 31-915-5252",
+      "status": "open",
+      "website": "https://www.churchofjesuschrist.org/temples/details/bern-switzerland-temple?lang=eng",
+      "image": "templeinnphotos/switzerland.jpg",
+      "announced": "1 July 1952",
+      "ground-breaking": "5 August 1953",
+      "dedicated": "23 October 1992"
+    },
+    {
+      "name": "Bogotá Colombia Temple",
+      "address": "Bogotá Distrito Capital Colombia",
+      "phone": "(57) 1-625-8000",
+      "status": "open",
+      "website": "https://www.churchofjesuschrist.org/temples/details/bogota-colombia-temple?lang=eng",
+      "image": "templeinnphotos/bogota_colombia.jpg",
+      "announced": "7 April 1984",
+      "ground-breaking": "26 June 1993",
+      "dedicated": "24 April 1999"
+    },
+    {
+      "name": "Columbia South Carolina Temple",
+      "address": "2905 Trotter Rd Hopkins SC 29061-9573",
+      "phone": "(1) 803-647-9472",
+      "status": "open",
+      "website": "https://www.churchofjesuschrist.org/temples/details/columbia-south-carolina-temple?lang=eng",
+      "image": "templeinnphotos/columbia_temple.jpg",
+      "announced": "11 September 1998",
+      "ground-breaking": "5 December 1998",
+      "dedicated": "16 October 1999"
+    },
+    {
+      "name": "Adelaide Australia Temple",
+      "address": "53-59 Lower Portrush Rd",
+      "phone": "(61) 8-8363-8000",
+      "status": "closed",
+      "website": "https://www.churchofjesuschrist.org/temples/details/adelaide-australia-temple?lang=eng",
+      "image": "templeinnphotos/adelaide_australia.jpg",
+      "announced": "17 March 1999",
+      "ground-breaking": "29 May 1999",
+      "dedicated": "15 June 2000"
+    },
+    {
+      "name": "Washington D.C. Temple",
+      "address": "72-80-Okpu-Umuobo Rd",
+      "phone": "Not Available",
+      "status": "closed",
+      "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
+      "image": "templeinnphotos/washington_dc_temple.jpg",
+      "announced": "15 November 1968",
+      "ground-breaking": "7 December 1968",
+      "dedicated": "19 November 1974"
+    },
+    {
+      "name": "Toronto Ontario Temple",
+      "address": "10060 Bramalea Rd",
+      "phone": "(1) 905-799-1122",
+      "status": "closed",
+      "website": "https://www.churchofjesuschrist.org/temples/details/toronto-ontario-temple?lang=eng",
+      "image": "templeinnphotos/toronto_temple.jpg",
+      "announced": "7 April 1984",
+      "ground-breaking": "10 October 1987",
+      "dedicated": "25 August 1990"
+    },
+    {
+      "name": "Mesa Arizona Temple",
+      "address": "Mesa AZ 85204-1031",
+      "phone": "(1) 480-833-1211",
+      "status": "open",
+      "website": "https://www.churchofjesuschrist.org/temples/details/mesa-arizona-temple?lang=eng",
+      "image": "templeinnphotos/mesa_temple.jpg",
+      "announced": "1 October 1919",
+      "ground-breaking": "25 April 1922",
+      "dedicated": "23 October 1927"
+    },
+    {
+      "name": "Las Vegas Nevada Temple",
+      "address": "827 Temple View Dr",
+      "phone": "(1) 702-452-5011",
+      "status": "closed",
+      "website": "https://www.churchofjesuschrist.org/temples/details/las-vegas-nevada-temple?lang=eng",
+      "image": "templeinnphotos/las_vegas_temple.jpg",
+      "announced": "7 April 1984",
+      "ground-breaking": "30 November 1985",
+      "dedicated": "16 December 1989"
+    },
+    {
+      "name": "Kinshasa Democratic Republic of the Congo Temple",
+      "address": "50 Croisement Avenue de l` OUA / Milolo",
+      "phone": "(243) 815-590-060",
+      "status": "open",
+      "website": "https://www.churchofjesuschrist.org/temples/details/kinshasa-democratic-republic-of-the-congo-temple?lang=eng",
+      "image": "templeinnphotos/kinshasa_temple.jpg",
+      "announced": "1 October 2011",
+      "ground-breaking": "12 February 2016",
+      "dedicated": "14 April 2019"
+    }
+  ]
+}

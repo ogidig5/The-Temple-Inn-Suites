@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Temple Inn and Suites</title>
+  <meta name="description" content="Welcome to the temple inn and suites, We are the hotel for your soul!" />
+  <!-- <link rel="shortcut icon" href="favicon.ico" /> -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link type="text/css" rel="stylesheet" href="css/small.css" />
+  <link type="text/css" rel="stylesheet" href="css/medium.css" />
+  <link type="text/css" rel="stylesheet" href="css/large.css" />
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Caudex:400,400i,700,700i%7CQuicksand:400,500,700%7CTangerine:400,700"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <div class="headerItems">
+      <img src="templeinnphotos/smalltempleinn3nobg.png" alt="This is an image of a header logo" class="headerImage" />
+
+      <div class="social">
+        <a href="https://twitter.com/explore">
+          <img class="icon-1" src="templeinnphotos/Facebook-logonobg.png" alt="This is a Facebook icon">
+        </a>
+      </div>
+      <div class="social">
+        <a href="https://www.youtube.com/">
+          <!--Kindly add a youtube icon-->
+          <img class="icon-1" src="templeinnphotos/Facebook-logonobg.png" alt="This is a Youtube icon">
+        </a>
+      </div>
+      <div class="social" id="facebook-icon">
+        <a href="https://www.facebook.com/profile.php?id=100004971191346">
+          <img class="icon-2" src="templeinnphotos/twittericonnobg.png" alt="This is a Twitter icon">
+        </a>
+      </div>
+
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+          <li class="activepage"><a href="#">Home</a></li>
+          <li><a href="#">Temples</a></li>
+          <li><a href="#">Reservations</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- <section>
+      <img class="bed" src="templeinnphotos/templeinnbed_small.jpg" alt="A hotel room for guests">
+    </section> -->
+    <div class="bed">
+      <img src="templeinnphotos/templeinnbed_small.jpg" alt="A hotel room for guests" class="Bed">
+      <div class="bed_container">
+        <p class="bed-heading"><img src="templeinnphotos/newtemplelogo.png" alt="A hotel room for guests"
+            id="bed-heading">Are you dreaming
+          of a place to stay during your Temple trip? worry no more! Welcome to Temple Inn & Suites, where customer
+          satisfaction is a philosophy.Book your stay with us. We're the hotel for your soul. The perfect embodiment of
+          calm luxury. Try us!</p>
+        <p><button onclick="window.location.href='#'" class="bed-button"><strong>Book a Reservation
+              Today</strong></button></p>
+      </div>
+    </div>
+    <div id="temples">
+    </div>
+    <p><button onclick="window.location.href='#'" class="temple-button"><strong>Check out more Temples</strong></button>
+    </p>
+    <div class="nairobiTemple">
+      <img src="templeinnphotos/smallnairobitemple.png" alt="A photo of the Kenya, Nairobi temple">
+      <div class="nairobiContainer">
+        <h2>The Kenya Nairobi Temple</h2>
+        <p><em>"Where Earth meets Heaven..."</em></p>
+        <h3>Quick Facts:</h3>
+        <p>Above is the future rendering of the Kenya, Nairobi Temple.Once completed, the temple will serve not only
+          Latter-day Saints in Kenya, but the temple district will include the surrounding countries of Uganda,
+          Tanzania, Rwanda, South Sudan, Eritrea, Ethiopia and Djibouti.</p>
+        <p>The Church in Kenya started with the 1979 baptisms of a family of four. Today, nearly 15,000 Latter-day
+          Saints reside in the country, which is home to two stakes, six districts and 54 congregations.</p>
+        <p><strong>Announced:</strong> 2nd April 2017</p>
+        <p><strong>Ground-breaking:</strong> 11th September 2021</p>
+      </div>
+    </div>
+    <section id="weather">
+      <h2>Weather in Nairobi<br /><em>(Currently)</em></h2>
+      <figure><img src="" alt="icon displaying weather" id="weather-icon" /></figure>
+      <p>Temparature: <span id="current-temp"></span>°C</p>
+      <p>Condition: <span id="condition"></span></p>
+      <p>Humidity: <span id="humidity"></span>%</p>
+      <p><span id="description"></span></p>
+      <table>
+        <tr>
+          <td>Wind Speed:</td>
+          <td><span id="speed"></span>km/h</td>
+        </tr>
+        <tr>
+          <td>Wind Chill:</td>
+          <td><span id="windchill"></span></td>
+        </tr>
+      </table>
+    </section>
+    <div id="weatherContainer">
+      <h3 class="weatherForecast">Subsequent 3-Day Weather Forecast<br />(Nairobi City)</h3>
+      <div id="iconsContainer">
+        <div class="icons" id="dayOne">
+          <p class="weather" id="day1"></p>
+          <div class="image"><img src="dots.png" class="imgClass" id="img1"></div>
+          <p class="condition" id="day1Cond">Loading...</p>
+          <p class="temparature" id="day1Temp">Loading...</p>
+          <p class="humidity" id="day1Hum">Loading...</p>
+        </div>
+        <div class="icons">
+          <p class="weather" id="day2"></p>
+          <div class="image"><img src="dots.png" class="imgClass" id="img2"></div>
+          <p class="condition" id="day2Cond">Loading...</p>
+          <p class="temparature" id="day2Temp">Loading...</p>
+          <p class="humidity" id="day2Hum">Loading...</p>
+        </div>
+        <div class="icons">
+          <p class="weather" id="day3"></p>
+          <div class="image"><img src="dots.png" class="imgClass" id="img3"></div>
+          <p class="condition" id="day3Cond">Loading...</p>
+          <p class="temparature" id="day3Temp">Loading...</p>
+          <p class="humidity" id="day3Hum">Loading...</p>
+        </div>
+        <div class="icons">
+          <p class="weather" id="day4"></p>
+          <div class="image"><img src="dots.png" class="imgClass" id="img4"></div>
+          <p class="condition" id="day4Cond">Loading...</p>
+          <p class="temparature" id="day4Temp">Loading...</p>
+          <p class="humidity" id="day4Hum">Loading...</p>
+        </div>
+      </div>
+    </div>
+    <div id="testimonials">
+      <h3 id="testimony">Testimonials</h3>
+      <figure>
+        <figcaption><img src="templeinnphotos/testimonial1.JPG" alt=""><strong>"A warm, stylish place to unplug and
+            connect"</strong><br /><em>...Sisters Odonkor and Opio</em></figcaption>
+        <figcaption><img src="templeinnphotos/testimonial2.jpg" alt=""><strong>"To the well-dressed, the best view is
+            reserved"</strong><br /><em>...George</em></figcaption>
+      </figure>
+    </div>
+    <footer>
+      <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370285227!2d-77.09772048479633!3d38.983255949483954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2ske!4v1648597169616!5m2!1sen!2ske"
+        width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="footer3">
+        @ 2022 TEMPLE INN & SUITES <STRONG>|</STRONG><br />
+        ATTRIBUTIONS <STRONG>|</STRONG><br />
+        GEORGE OGIDI <br />
+        <div id="lastupdated"></div>
+      </div>
+    </footer>
+  </main>
+  <script src="js/nav.js"></script>
+  <script src="js/temples.js"></script>
+  <script src="js/weatherapi.js"></script>
+  <script src="js/windchill.js"></script>
+  <script src="js/forecast.js"></script>
+</body>
+
+</html>
