@@ -147,4 +147,33 @@ div.bed {
   left: 2%;
   border-radius: 3px 0 0 3px;
 }
+/*---------Directory Medium-----------*/
+#dirCards {
+  display: none;
+}
+
+#dirBtn {
+  width: 20%;
+}
+#grid-btn {
+  display: none;
+}
+#dirList {
+  display: block;
+}
+#dirList section {
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+}
+
+#dirList section p {
+  padding: 0.5em;
+  text-align: center;
+}
+
+#dirList a {
+  display: block;
+  align-self: center;
+}
 }

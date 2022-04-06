@@ -109,4 +109,20 @@
   .text1 {
     margin-left: 150px;
   }
+   /*-------------Directory Large-----------------*/
+
+   #dirCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding-bottom: 40px;
+  }
+
+  #dirCards.hidden,
+  #dirList.hidden {
+    display: none;
+  }
+  #grid-btn {
+    display: block;
+  }
 }

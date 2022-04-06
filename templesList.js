@@ -1,4 +1,4 @@
-const requestURL = 'https://ogidig5.github.io/wdd230/chamber/lesson09/business.json';
+const requestURL = 'https://ogidig5.github.io/Temple Inn and Suites/The-Temple-Inn-Suites/json/temples.json';
 
 const cards = document.getElementById('dirCards');
 const list = document.getElementById('dirList');
@@ -9,13 +9,13 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
 
-        const business = jsonObject['business'];
+        const temples = jsonObject['temples'];
 
-        business.forEach(displayBusinessCards);
-        business.forEach(displayBusinessList);
+        temples.forEach(displaytemplesCards);
+        temples.forEach(displaytemplesList);
     });
 
-function displayBusinessCards(business) {
+function displaytemplesCards(temples) {
     let card = document.createElement('section');
     let portrait = document.createElement('img');
     let address = document.createElement('p');
@@ -23,14 +23,14 @@ function displayBusinessCards(business) {
     let email = document.createElement('p');
     let website = document.createElement('a');
 
-    portrait.setAttribute('src', business.image);
-    portrait.setAttribute('alt', `portrait for ${business.name}`);
+    portrait.setAttribute('src', temples.image);
+    portrait.setAttribute('alt', `portrait for ${temples.name}`);
     portrait.setAttribute('loading', 'lazy');
 
-    address.textContent = business.address;
-    phone.textContent = business.phone;
-    email.textContent = business.email;
-    website.textContent = business.website;
+    address.textContent = temples.address;
+    phone.textContent = temples.phone;
+    email.textContent = temples.email;
+    website.textContent = temples.website;
     website.setAttribute('href', '#');
 
     card.appendChild(portrait);
@@ -42,17 +42,17 @@ function displayBusinessCards(business) {
     cards.appendChild(card);
 }
 
-function displayBusinessList(business) {
+function displaytemplesList(temples) {
     let listItem = document.createElement('section');
     let name = document.createElement('p');
     let address = document.createElement('p');
     let phone = document.createElement('p');
     let website = document.createElement('a');
 
-    name.textContent = business.name;
-    address.textContent = business.address;
-    phone.textContent = business.phone;
-    website.textContent = business.website;
+    name.textContent = temples.name;
+    address.textContent = temples.address;
+    phone.textContent = temples.phone;
+    website.textContent = temples.website;
     website.setAttribute('href', '#');
 
     listItem.appendChild(name);
