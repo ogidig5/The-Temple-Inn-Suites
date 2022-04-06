@@ -41,7 +41,7 @@ function displaytemples(temples) {
       contact.innerHTML = `Phone: ${temples.phone}`;
       // website.innerHTML = `Website: ${temples.website}`;
       announced.innerHTML = `Announced: ${temples.announced}`;
-      ground_breaking.innerHTML = `Ground-breaking: ${temples.ground}`;
+      ground_breaking.innerHTML = `Ground-breaking: ${temples.ground_breaking}`;
       dedication.innerHTML = `Dedicated: ${temples.dedicated}`;
       address.setAttribute("class", "temple-address");
       address.innerHTML = `Address: ${temples.address}`;

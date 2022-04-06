@@ -8,8 +8,12 @@
       "website": "https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng",
       "image": "templeinnphotos/aba.jpg",
       "announced": "2nd April, 2000",
-      "ground-breaking": "23rd February, 2002",
-      "dedicated": "7th August 2005"
+      "ground_breaking": "23rd February, 2002",
+      "dedicated": "7th August 2005",
+      "services": "The following services are unavailable: Rental clothing, cafeteria and patron housing. Distribution center nearby",
+      "session" : "For schedule information, please call the temple.",
+      "ordinance" : "For schedule information, please call the temple. All ordinances are available by appointment only",
+      "closure" : "Friday, 8 April 2022, Saturday, 20 August 2022, Monday, 5 September 2022 - Monday, 2 January 2023"
     },
     {
       "name": "Boise Idaho Temple",
@@ -19,8 +23,12 @@
       "website": "https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng",
       "image": "templeinnphotos/boise_idaho.jpg",
       "announced": "1 March 1982",
-      "ground-breaking": "8 December 1982",
-      "dedicated": "25 May 1984"
+      "ground_breaking": "8 December 1982",
+      "dedicated": "25 May 1984",
+      "services": "The following services are unavailable: Rental clothing, cafeteria and patron housing. Distribution center nearby",
+      "session" : "For schedule information, please call the temple.",
+      "ordinance" : "For schedule information, please call the temple. All ordinances are available by appointment only",
+      "closure" : "Monday, 2 May 2022 - Monday, 16 May 2022, 24 October 2022 Wednesday, 23 November 2022 (Limited Operations)Thursday, 24 November 2022Saturday, 24 December 2022Saturday, 31 December 2022 (Limited Operations)"
     },
     {
       "name": "Bern Switzerland Temple",
@@ -30,8 +38,12 @@
       "website": "https://www.churchofjesuschrist.org/temples/details/bern-switzerland-temple?lang=eng",
       "image": "templeinnphotos/switzerland.jpg",
       "announced": "1 July 1952",
-      "ground-breaking": "5 August 1953",
-      "dedicated": "23 October 1992"
+      "ground_breaking": "5 August 1953",
+      "dedicated": "23 October 1992",
+      "services": "The following services are available: Rental clothing, cafeteria and patron housing. Distribution center nearby",
+      "session" : "For schedule information, please call the temple.",
+      "ordinance" : "For schedule information, please call the temple. All ordinances are available by appointment only",
+      "closure" : "Monday, 13 June 2022 - Monday, 27 June 2022 Saturday, 24 December 2022, Saturday, 31 December 2022"
     },
     {
       "name": "Bogotá Colombia Temple",
@@ -41,8 +53,12 @@
       "website": "https://www.churchofjesuschrist.org/temples/details/bogota-colombia-temple?lang=eng",
       "image": "templeinnphotos/bogota_colombia.jpg",
       "announced": "7 April 1984",
-      "ground-breaking": "26 June 1993",
-      "dedicated": "24 April 1999"
+      "ground_breaking": "26 June 1993",
+      "dedicated": "24 April 1999",
+      "services": "The following services are not available: Cafeteria and patron housing. Distribution center and  Rental clothing available",
+      "session" : "For schedule information, please call the temple.",
+      "ordinance" : "For schedule information, please call the temple. All ordinances are available by appointment only",
+      "closure" : "Wednesday, 20 July 2022, Monday, 19 September 2022 - Monday, 28 November 2022, Thursday, 8 December 2022"
     },
     {
       "name": "Columbia South Carolina Temple",
@@ -52,8 +68,12 @@
       "website": "https://www.churchofjesuschrist.org/temples/details/columbia-south-carolina-temple?lang=eng",
       "image": "templeinnphotos/columbia_temple.jpg",
       "announced": "11 September 1998",
-      "ground-breaking": "5 December 1998",
-      "dedicated": "16 October 1999"
+      "ground_breaking": "5 December 1998",
+      "dedicated": "16 October 1999",
+      "services": "The following services are unavailable: Rental clothing, cafeteria and patron housing. Distribution center nearby",
+      "session" : "For schedule information, please call the temple.",
+      "ordinance" : "For schedule information, please call the temple. All ordinances are available by appointment only",
+      "closure" : "Monday, 11 July 2022 - Monday, 25 July 2022, Saturday, 1 October 2022, Thursday, 24 November 2022"
     },
     {
       "name": "Adelaide Australia Temple",
@@ -63,53 +83,14 @@
       "website": "https://www.churchofjesuschrist.org/temples/details/adelaide-australia-temple?lang=eng",
       "image": "templeinnphotos/adelaide_australia.jpg",
       "announced": "17 March 1999",
-      "ground-breaking": "29 May 1999",
-      "dedicated": "15 June 2000"
+      "ground_breaking": "29 May 1999",
+      "dedicated": "15 June 2000",
+      "services": "The following services are unavailable: Rental clothing, cafeteria and patron housing and distribution",
+      "session" : "For schedule information, please call the temple.",
+      "ordinance" : "For schedule information, please call the temple. All ordinances are available by appointment only",
+      "closure" : "Saturday, 9 April 2022, Saturday, 16 April 2022, Monday, 18 April 2022 - Monday, 25 April 2022, Saturday, 8 October 2022"
     },
-    {
-      "name": "Washington D.C. Temple",
-      "address": "72-80-Okpu-Umuobo Rd",
-      "phone": "Not Available",
-      "status": "closed",
-      "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
-      "image": "templeinnphotos/washington_dc_temple.jpg",
-      "announced": "15 November 1968",
-      "ground-breaking": "7 December 1968",
-      "dedicated": "19 November 1974"
-    },
-    {
-      "name": "Toronto Ontario Temple",
-      "address": "10060 Bramalea Rd",
-      "phone": "(1) 905-799-1122",
-      "status": "closed",
-      "website": "https://www.churchofjesuschrist.org/temples/details/toronto-ontario-temple?lang=eng",
-      "image": "templeinnphotos/toronto_temple.jpg",
-      "announced": "7 April 1984",
-      "ground-breaking": "10 October 1987",
-      "dedicated": "25 August 1990"
-    },
-    {
-      "name": "Mesa Arizona Temple",
-      "address": "Mesa AZ 85204-1031",
-      "phone": "(1) 480-833-1211",
-      "status": "open",
-      "website": "https://www.churchofjesuschrist.org/temples/details/mesa-arizona-temple?lang=eng",
-      "image": "templeinnphotos/mesa_temple.jpg",
-      "announced": "1 October 1919",
-      "ground-breaking": "25 April 1922",
-      "dedicated": "23 October 1927"
-    },
-    {
-      "name": "Las Vegas Nevada Temple",
-      "address": "827 Temple View Dr",
-      "phone": "(1) 702-452-5011",
-      "status": "closed",
-      "website": "https://www.churchofjesuschrist.org/temples/details/las-vegas-nevada-temple?lang=eng",
-      "image": "templeinnphotos/las_vegas_temple.jpg",
-      "announced": "7 April 1984",
-      "ground-breaking": "30 November 1985",
-      "dedicated": "16 December 1989"
-    },
+    
     {
       "name": "Kinshasa Democratic Republic of the Congo Temple",
       "address": "50 Croisement Avenue de l` OUA / Milolo",
@@ -118,8 +99,12 @@
       "website": "https://www.churchofjesuschrist.org/temples/details/kinshasa-democratic-republic-of-the-congo-temple?lang=eng",
       "image": "templeinnphotos/kinshasa_temple.jpg",
       "announced": "1 October 2011",
-      "ground-breaking": "12 February 2016",
-      "dedicated": "14 April 2019"
+      "ground_breaking": "12 February 2016",
+      "dedicated": "14 April 2019",
+      "services": "The following services are not available: Cafeteria and patron housing. Distribution center and  Rental clothing available",
+      "session" : "For schedule information, please call the temple.",
+      "ordinance" : "For schedule information, please call the temple. All ordinances are available by appointment only",
+      "closure" : "Monday, 28 March 2022 - Monday, 11 April 2022, Tuesday, 17 May 2022, Monday, 17 October 2022 - Monday, 31 October 2022"
     }
   ]
 }
