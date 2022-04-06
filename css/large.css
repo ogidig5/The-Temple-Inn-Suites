@@ -1,28 +1,33 @@
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 930px) {
   main {
     padding: 2rem;
     padding-left: 5rem;
   }
+  nav ul li a {
+    padding: 0.5rem 1rem;
+    font-size: larger;
+  }
+  nav ul#primaryNav {
+    display: flex;
+  }
+  nav button {
+    display: none;
+  }
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 600px;
     grid-gap: 5px;
   }
   #temples {
-    grid-column: 1;
-    grid-row: 1/2;
-    display: block;
-    /* height: fit-content; */
+    grid-column: 1/6;
+    grid-row: 2/3;
+    display: flex;
     width: 100%;
     height: 100%;
   }
   #temples section {
     width: auto;
-  }
-  section#temple-3 {
-    display: block;
-    height: fit-content;
   }
   section#temple-3 {
     display: block;
@@ -34,34 +39,35 @@
 
   div.bed {
     grid-column: 2/4;
-    grid-row: 1;
-    height: fit-content;
+    grid-row: 1/2;
+    height: 800px;
     margin-top: 1rem;
   }
-
+  .bed img {
+    display: block;
+  }
   div.nairobiTemple {
     grid-column: 4/6;
-    grid-row: 1;
+    grid-row: 1/2;
     display: block;
     height: fit-content;
     font-size: 15pt;
     margin-top: 1rem;
   }
   #weather {
-    grid-column: 2/4;
-    grid-row: 2;
+    grid-column: 1;
+    grid-row: 1;
     height: fit-content;
     width: 80%;
-    margin-top: -51.5rem;
   }
   #iconsContainer {
-    display: block;
+    display: flex;
   }
   #weatherContainer {
-    grid-column: 2/4;
+    grid-column: 1;
     grid-row: 2;
-    margin-top: -15rem;
-    margin-left: 2rem;
+    margin-top: -30rem;
+    margin-left: 1.5rem;
     /* height: fit-content; */
     margin-right: 6rem;
   }
@@ -73,14 +79,12 @@
     margin-right: auto;
   }
   #testimonials {
+    display: none;
     grid-column: 4/6;
     grid-row: 2;
-    margin-top: -35rem;
+    margin-top: -15rem;
     margin-left: 1.5rem;
     /* height: fit-content; */
-  }
-  .testimony3 {
-    display: block;
   }
   #footerLogo {
     display: none;

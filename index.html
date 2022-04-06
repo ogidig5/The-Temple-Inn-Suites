@@ -22,22 +22,20 @@
 <body>
   <header>
     <div class="headerItems">
-      <img src="templeinnphotos/smalltempleinn3nobg.png" alt="This is an image of a header logo" class="headerImage" />
-
+      <!-- <img src="templeinnphotos/templeinn3nobg.png" alt="This is an image of a header logo" class="headerImage" /> -->
+      <picture>
+        <source srcset="templeinnphotos/smalltempleinn3nobg.png" media="(min-width: 520px) and (max-width: 929px)">
+        <source srcset="templeinnphotos/templeinn3nobg.png" media="(min-width: 930px)">
+        <img src="templeinnphotos/smalltempleinn3nobg.png" alt="The city of Nairobi at night" class="headerImage">
+      </picture>
       <div class="social">
         <a href="https://twitter.com/explore">
-          <img class="icon-1" src="templeinnphotos/Facebook-logonobg.png" alt="This is a Facebook icon">
+          <p>Twitter</p>
         </a>
       </div>
       <div class="social">
-        <a href="https://www.youtube.com/">
-          <!--Kindly add a youtube icon-->
-          <img class="icon-1" src="templeinnphotos/Facebook-logonobg.png" alt="This is a Youtube icon">
-        </a>
-      </div>
-      <div class="social" id="facebook-icon">
         <a href="https://www.facebook.com/profile.php?id=100004971191346">
-          <img class="icon-2" src="templeinnphotos/twittericonnobg.png" alt="This is a Twitter icon">
+          <p>Facebook</p>
         </a>
       </div>
 
@@ -45,19 +43,15 @@
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
           <li class="activepage"><a href="index.html">Home</a></li>
-          <li><a href="temples.html">Temples</a></li>
+          <li ><a href="temples.html">Temples</a></li>
           <li><a href="reservation.html">Reservations</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li><a href="json/temples.json">JSON</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main>
-    <!-- <section>
-      <img class="bed" src="templeinnphotos/templeinnbed_small.jpg" alt="A hotel room for guests">
-    </section> -->
     <div class="wrapper">
       <div class="bed">
         <img src="templeinnphotos/templeinnbed_small.jpg" alt="A hotel room for guests" class="Bed">
@@ -68,13 +62,13 @@
             satisfaction is a philosophy.Book your stay with us. We're the hotel for your soul. The perfect embodiment
             of
             calm luxury. Try us!</p>
-          <p><button onclick="window.location.href='#'" class="bed-button"><strong>Book a Reservation
+          <p><button onclick="window.location.href='reservation.html'" class="bed-button"><strong>Book a Reservation
                 Today</strong></button></p>
         </div>
       </div>
       <div id="temples">
       </div>
-      <p><button onclick="window.location.href='#'" class="temple-button"><strong>Check out more
+      <p><button onclick="window.location.href='temples.html'" class="temple-button"><strong>Check out more
             Temples</strong></button>
       </p>
       <div class="nairobiTemple">
@@ -94,7 +88,7 @@
       </div>
       <section id="weather">
         <h2>Weather in Nairobi<br /><em>(Currently)</em></h2>
-        <figure><img src="" alt="icon displaying weather" id="weather-icon" /></figure>
+        <figure><img src="dots.png" alt="icon displaying weather" id="weather-icon" /></figure>
         <p>Temparature: <span id="current-temp"></span>°C</p>
         <p>Condition: <span id="condition"></span></p>
         <p>Humidity: <span id="humidity"></span>%</p>
@@ -115,28 +109,28 @@
         <div id="iconsContainer">
           <div class="icons" id="dayOne">
             <p class="weather" id="day1"></p>
-            <div class="image"><img src="dots.png" class="imgClass" id="img1"></div>
+            <div class="image"><img src="dots.png" alt="imageIcon1" class="imgClass" id="img1"></div>
             <p class="condition" id="day1Cond">Loading...</p>
             <p class="temparature" id="day1Temp">Loading...</p>
             <p class="humidity" id="day1Hum">Loading...</p>
           </div>
           <div class="icons">
             <p class="weather" id="day2"></p>
-            <div class="image"><img src="dots.png" class="imgClass" id="img2"></div>
+            <div class="image"><img src="dots.png" alt="imageIcon2" class="imgClass" id="img2"></div>
             <p class="condition" id="day2Cond">Loading...</p>
             <p class="temparature" id="day2Temp">Loading...</p>
             <p class="humidity" id="day2Hum">Loading...</p>
           </div>
           <div class="icons">
             <p class="weather" id="day3"></p>
-            <div class="image"><img src="dots.png" class="imgClass" id="img3"></div>
+            <div class="image"><img src="dots.png" alt="imageIcon3" class="imgClass" id="img3"></div>
             <p class="condition" id="day3Cond">Loading...</p>
             <p class="temparature" id="day3Temp">Loading...</p>
             <p class="humidity" id="day3Hum">Loading...</p>
           </div>
           <div class="icons">
             <p class="weather" id="day4"></p>
-            <div class="image"><img src="dots.png" class="imgClass" id="img4"></div>
+            <div class="image"><img src="dots.png" alt="imageIcon4" class="imgClass" id="img4"></div>
             <p class="condition" id="day4Cond">Loading...</p>
             <p class="temparature" id="day4Temp">Loading...</p>
             <p class="humidity" id="day4Hum">Loading...</p>
@@ -146,28 +140,13 @@
       <div id="testimonials">
         <h3 id="testimony">Testimonials</h3>
         <figure>
-          <figcaption id="testimony1"><img src="templeinnphotos/testimonial1.JPG" alt="testimony 1"><strong>"A warm,
+          <p id="testimony1"><img src="templeinnphotos/spot2.jpg" alt="testimony 1"><strong>"A warm,
               stylish place to
               unplug and
-              connect"</strong><br /><em>...Sisters Odonkor and Opio</em></figcaption>
-          <figcaption id="testimony2"><img src="templeinnphotos/testimonial2.jpg" alt="testimony 2"><strong>"To the
+              connect"</strong><br /><em>...The Johnsons</em></p>
+          <p id="testimony2"><img src="templeinnphotos/spot1.jpg" alt="testimony 2"><strong>"To the
               well-dressed, the best view is
-              reserved"</strong><br /><em>...George</em></figcaption>
-          <figcaption id="testimony2" class="testimony3"><img src="templeinnphotos/testimonial2.jpg" alt="testimony 2"><strong>"To the
-              well-dressed, the best view is
-              reserved"</strong><br /><em>...George</em></figcaption>
-              <figcaption id="testimony2" class="testimony3"><img src="templeinnphotos/testimonial2.jpg" alt="testimony 2"><strong>"To the
-                well-dressed, the best view is
-                reserved"</strong><br /><em>...George</em></figcaption>
-                <figcaption id="testimony2" class="testimony3"><img src="templeinnphotos/testimonial2.jpg" alt="testimony 2"><strong>"To the
-                  well-dressed, the best view is
-                  reserved"</strong><br /><em>...George</em></figcaption>
-                  <figcaption id="testimony2" class="testimony3"><img src="templeinnphotos/testimonial2.jpg" alt="testimony 2"><strong>"To the
-                    well-dressed, the best view is
-                    reserved"</strong><br /><em>...George</em></figcaption>
-                    <figcaption id="testimony2" class="testimony3"><img src="templeinnphotos/testimonial2.jpg" alt="testimony 2"><strong>"To the
-                      well-dressed, the best view is
-                      reserved"</strong><br /><em>...George</em></figcaption>
+              reserved"</strong><br /><em>...George</em></p>
         </figure>
       </div>
     </div>
@@ -177,12 +156,6 @@
       <div class="social">
         <a href="https://twitter.com/explore">
           <img class="icon-1" src="templeinnphotos/Facebook-logonobg.png" alt="This is a Facebook icon">
-        </a>
-      </div>
-      <div class="social">
-        <a href="https://www.youtube.com/">
-          <!--Kindly add a youtube icon-->
-          <img class="icon-1" src="templeinnphotos/Facebook-logonobg.png" alt="This is a Youtube icon">
         </a>
       </div>
       <div class="social" id="facebook-icon">
@@ -196,7 +169,6 @@
         &#x260F; Phone: (+254) 704 469 693 <strong>|</strong><br />
         &#x2709; Address: 4800 Montgomery Ln #300, Bethesda, MD 20814 <br />
         <img id="footerLogo" src="templeinnphotos/templeinn2nobg.png" alt="Temple Inn and Suites logo"> <br />
-        <div id="lastupdated"></div>
       </div>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370285227!2d-77.09772048479633!3d38.983255949483954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2ske!4v1648597169616!5m2!1sen!2ske"

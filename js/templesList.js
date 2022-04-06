@@ -35,18 +35,18 @@ function displayTemplesCards(temples) {
   portrait.setAttribute("alt", `Image for ${temples.name}`);
   portrait.setAttribute("loading", "lazy");
 
-  currentStatus.textContent = `Temple Status: ${status}`;
-  contact.innerHTML = `Phone: ${temples.phone}`;
+  currentStatus.textContent = `TEMPLE STATUS: ${temples.status}`;
+  contact.innerHTML = `PHONE: ${temples.phone}`;
   // website.innerHTML = `Website: ${temples.website}`;
-  announced.innerHTML = `Announced: ${temples.announced}`;
-  ground_breaking.innerHTML = `Ground-breaking: ${temples.ground}`;
-  dedication.innerHTML = `Dedicated: ${temples.dedicated}`;
+  announced.innerHTML = `ANNOUNCED: ${temples.announced}`;
+  ground_breaking.innerHTML = `GROUND-BREAKING: ${temples.ground_breaking}`;
+  dedication.innerHTML = `DEDICATED: ${temples.dedicated}`;
   address.setAttribute("class", "temple-address");
-  address.innerHTML = `Address: ${temples.address}`;
-  services.innerHTML = `Services: ${temples.services}`;
-  session.innerHTML = `Session: ${temples.session}`;
-  ordinance.innerHTML = `Ordinances: ${temples.ordinance}`;
-  closure.innerHTML = `Temple Closure: ${temples.closure}`;
+  address.innerHTML = `ADDRESS: ${temples.address}`;
+  services.innerHTML = `SERVICES: ${temples.services}`;
+  session.innerHTML = `SESSION: ${temples.session}`;
+  ordinance.innerHTML = `ORDINANCES: ${temples.ordinance}`;
+  closure.innerHTML = `TEMPLE CLOSURE: ${temples.closure}`;
 
   section.appendChild(h3);
   section.appendChild(portrait);

@@ -26,31 +26,25 @@
 
       <div class="social">
         <a href="https://twitter.com/explore">
-          <img class="icon-1" src="templeinnphotos/Facebook-logonobg.png" alt="This is a Facebook icon">
+          <p>Twitter</p>
         </a>
       </div>
       <div class="social">
-        <a href="https://www.youtube.com/">
-          <!--Kindly add a youtube icon-->
-          <img class="icon-1" src="templeinnphotos/Facebook-logonobg.png" alt="This is a Youtube icon">
-        </a>
-      </div>
-      <div class="social" id="facebook-icon">
         <a href="https://www.facebook.com/profile.php?id=100004971191346">
-          <img class="icon-2" src="templeinnphotos/twittericonnobg.png" alt="This is a Twitter icon">
+          <p>Facebook</p>
         </a>
       </div>
 
       <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
-          <li class="activepage"><a href="index.html">Home</a></li>
-          <li><a href="#">Temples</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="temples.html">Temples</a></li>
           <li><a href="reservation.html">Reservations</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="fulltime-missionaries.html">fulltime-missionaries</a></li>
           <li><a href="reception.html">reception</a></li>
-          <li><a href="#">Contact</a></li>
+          <li class="activepage"><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -94,29 +88,31 @@
           <td>11:00 PM</td>
         </tr>
         <tr>
-          <td class="last">Sunday</td>
-          <td class="last">Closed</td>
-          <td class="last">Closed</td>
+          <td>Sunday</td>
+          <td>Closed</td>
+          <td>Closed</td>
         </tr>
       </tbody>
     </table>
-    <h3>Contact Us</h3>
+    <h1 class="contactHeading">Contact Us</h1>
     <form action="thanks.html" method="get">
       <fieldset>
-        <legend><span>Contact Us</span></legend>
+        <legend>Personal Details</legend>
         <label class="top">Full Name:<input name="fullname" type="text" value="" placeholder="Full Name"
             pattern="[a-zA-Z -._]{5,99}" required></label>
-        <label class="top">Email:<input name="email" type="email" value="" placeholder="yourname@email.com"></label>
+        <label class="top">Email:<input name="email" type="email" value="" placeholder="yourname@email.com"
+            required></label>
         <label class="top">Phone:<input name="phone" type="tel" value="" placeholder="1235551234" pattern="[0-9]{10,20}"
             required></label>
-        <fieldset>
-          <legend>Share your query</legend>
-          <label for="t3"> Be detailed as possible: (maximum of 140 words)</label><br />
-          <textarea id="t3" name="msg" maxlength="140" rows="5" cols="30"></textarea>
-        </fieldset>
-        <input type="submit" value="Send your message" class="submitBtn">
-    </form>
-    </fieldset>
+      </fieldset>
+      <fieldset>
+        <legend>Share your query</legend>
+        <label for="t3"> Be detailed as possible: (maximum of 140 words)</label><br />
+        <textarea id="t3" name="msg" maxlength="140" rows="5" cols="30"></textarea>
+      </fieldset>
+      <input type="submit" value="Send your message" class="submitBtn">
+
+
     </form>
   </main>
   <footer>
@@ -127,12 +123,6 @@
         </a>
       </div>
       <div class="social">
-        <a href="https://www.youtube.com/">
-          <!--Kindly add a youtube icon-->
-          <img class="icon-1" src="templeinnphotos/Facebook-logonobg.png" alt="This is a Youtube icon">
-        </a>
-      </div>
-      <div class="social" id="facebook-icon">
         <a href="https://www.facebook.com/profile.php?id=100004971191346">
           <img class="icon-2" src="templeinnphotos/twittericonnobg.png" alt="This is a Twitter icon">
         </a>
@@ -143,7 +133,6 @@
         &#x260F; Phone: (+254) 704 469 693 <strong>|</strong><br />
         &#x2709; Address: 4800 Montgomery Ln #300, Bethesda, MD 20814 <br />
         <img id="footerLogo" src="templeinnphotos/templeinn2nobg.png" alt="Temple Inn and Suites logo"> <br />
-        <div id="lastupdated"></div>
       </div>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370285227!2d-77.09772048479633!3d38.983255949483954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2ske!4v1648597169616!5m2!1sen!2ske"
@@ -160,12 +149,7 @@
       @ 2022 TEMPLE INN & SUITES <strong>|</strong><br />
       RESERVATIONS <strong>|</strong><br />
       GEORGE OGIDI <br />
-      <div id="lastupdated"></div>
     </div>
   </footer>
   <script src="js/nav.js"></script>
-  <script src="js/temples.js"></script>
-  <script src="js/weatherapi.js"></script>
-  <script src="js/windchill.js"></script>
-  <script src="js/forecast.js"></script>
 </body>

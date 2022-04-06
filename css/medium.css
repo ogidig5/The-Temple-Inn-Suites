@@ -1,5 +1,8 @@
-@media only screen and (min-width: 699px) {
-.wrapper {
+@media only screen and (min-width: 520px) {
+  .headerImage {
+    width: 240px;
+  }
+  .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -73,14 +76,13 @@ div.bed {
   margin-top: -14rem;
   height: fit-content;
 }
+.bed img {
+  display: block;
+}
 #testimonials {
   grid-column: 3/4;
   grid-row: 4;
   margin-top: -14rem;
-  border: 6px outset grey;
-}
-.testimony3 {
-  display: none;
 }
 .smallMap {
   display: none;
@@ -92,6 +94,9 @@ div.bed {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+.footer4 {
+  font-size: larger;
 }
 #footerLogo {
   margin-top: 40px;

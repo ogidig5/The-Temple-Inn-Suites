@@ -1,16 +1,16 @@
 body {
   font-family: "Quicksand", "sans-serif";
-  background-color: antiquewhite;
+  background-color: #91a8d0;
 }
 
 .headerItems {
-  background-color: aquamarine;
+  background-color: white;
   padding: 10px;
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: flex-end;
   width: 100%;
-  /* height: fit-content; */
+
 }
 
 /*.....Social Networks Section.....*/
@@ -21,11 +21,12 @@ body {
 }
 .twitter {
   padding-left: 5px;
+  padding-right: 5px;
 }
 
 /*.....Navigation Section.....*/
 .activepage {
-  background-color: aqua;
+  background-color: grey;
   border-radius: 5px;
   color: black;
   border: none;
@@ -105,7 +106,7 @@ div.bed_container {
   padding: 10px 20px;
 }
 .bed img {
-  display: block;
+  display: none;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -482,9 +483,11 @@ iframe {
   padding-bottom: 15px;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
   padding-top: 10px;
+  font-weight: bold;
 }
 .footer4 {
   text-align: center;
+  font-weight: bold;
 }
 #footerLogo {
   background-color: black;
@@ -572,12 +575,22 @@ main.grid-item {
 }
 .text1 {
   color: black;
-  font-size: 15px;
+  font-size: 20px;
   padding: 8px 12px;
   bottom: 15px;
   margin-left: 38px;
   width: 100%;
   font-style: italic;
+}
+.action, .types {
+  font-weight: bold;
+  font-size: larger;
+}
+.photo1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px outset white;
 }
 /* Next & previous buttons */
 
@@ -621,12 +634,19 @@ main.grid-item {
   padding-bottom: 5px;
   font-size: larger;
 }
+/*---Contact Page---*/
 .contactTable {
-  background-color: #E2D8C7;
+  background-color: #fff;
   margin: 0 auto;
   margin-top: 10px;
   padding: 25px;
-  overflow: hidden;
+  border: 3px outset grey;
+  font-size: larger;
+}
+.contactHeading {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
 /*----Temple Directory page---*/
 .bizdir {
@@ -635,6 +655,8 @@ main.grid-item {
   padding: 1.5rem;
   color: white;
   margin-top: 5px;
+  text-transform: uppercase;
+  border-radius: 5%;
 }
 .dirMain {
   background-color: #91a8d0;
@@ -654,6 +676,7 @@ main.grid-item {
   border-radius: 5%;
   width: 97%;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 #dirCards h3 {
   margin-top: 0.5em;
@@ -674,3 +697,4 @@ main.grid-item {
   padding-top: 0.5em;
   border-top: 3px solid grey;
 }
+
