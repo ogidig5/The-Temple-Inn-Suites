@@ -545,12 +545,12 @@ speciallist {
   width: 70%;
   line-height: 40px;
   font-size: 20px;
-  background-color: #dcd0c0;
+  background-color: silver;
 }
 
 .space {
   padding: 20px;
-  background-color: rgb(253, 241, 226);
+  background-color: blue;
 }
 
 .title {
