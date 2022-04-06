@@ -1,0 +1,112 @@
+@media only screen and (min-width: 1000px) {
+  main {
+    padding: 2rem;
+    padding-left: 5rem;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+  }
+  #temples {
+    grid-column: 1;
+    grid-row: 1/2;
+    display: block;
+    /* height: fit-content; */
+    width: 100%;
+    height: 100%;
+  }
+  #temples section {
+    width: auto;
+  }
+  section#temple-3 {
+    display: block;
+    height: fit-content;
+  }
+  section#temple-3 {
+    display: block;
+    height: fit-content;
+  }
+  .temple-button {
+    display: none;
+  }
+
+  div.bed {
+    grid-column: 2/4;
+    grid-row: 1;
+    height: fit-content;
+    margin-top: 1rem;
+  }
+
+  div.nairobiTemple {
+    grid-column: 4/6;
+    grid-row: 1;
+    display: block;
+    height: fit-content;
+    font-size: 15pt;
+    margin-top: 1rem;
+  }
+  #weather {
+    grid-column: 2/4;
+    grid-row: 2;
+    height: fit-content;
+    width: 80%;
+    margin-top: -51.5rem;
+  }
+  #iconsContainer {
+    display: block;
+  }
+  #weatherContainer {
+    grid-column: 2/4;
+    grid-row: 2;
+    margin-top: -15rem;
+    margin-left: 2rem;
+    /* height: fit-content; */
+    margin-right: 6rem;
+  }
+  #img2,
+  #img3,
+  #img4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #testimonials {
+    grid-column: 4/6;
+    grid-row: 2;
+    margin-top: -35rem;
+    margin-left: 1.5rem;
+    /* height: fit-content; */
+  }
+  .testimony3 {
+    display: block;
+  }
+  #footerLogo {
+    display: none;
+  }
+  /* Services*/
+  div.specialImg {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+  .prev1,
+  .next1 {
+    left: 37%;
+  }
+  /* Position the "next button" to the right */
+
+  .next1 {
+    border-radius: 3px 0 0 3px;
+  }
+  .prev1 {
+    left: 10%;
+    border-radius: 3px 0 0 3px;
+  }
+  .text1 {
+    margin-left: 150px;
+  }
+}

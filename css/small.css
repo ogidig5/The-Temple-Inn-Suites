@@ -1,5 +1,6 @@
 body {
-  font-family: 'Quicksand', 'sans-serif';
+  font-family: "Quicksand", "sans-serif";
+  background-color: antiquewhite;
 }
 
 .headerItems {
@@ -49,7 +50,7 @@ nav ul li a {
   padding: 0.6rem 2vw;
   text-decoration: none;
   color: black;
-  width:5rem;
+  width: 5rem;
 }
 
 nav ul li a:hover {
@@ -110,7 +111,7 @@ div.bed_container {
   margin-top: 20px;
   width: 100%;
   border-radius: 5%;
-  box-shadow:5px 5px 5px slategray;
+  box-shadow: 5px 5px 5px slategray;
 }
 .bed-button {
   display: inline-block;
@@ -127,7 +128,9 @@ div.bed_container {
   box-shadow: 0 9px #0d5be1;
 }
 
-.bed-button:hover {background-color: aquamarine}
+.bed-button:hover {
+  background-color: aquamarine;
+}
 
 .bed-button:active {
   background-color: blue;
@@ -186,13 +189,14 @@ div.bed_container {
 #temple-3 {
   display: none;
 }
-.temple-button{
+
+.temple-button {
   display: block;
   margin-left: auto;
   margin-right: auto;
   border: 3px outset grey;
   border-radius: 10px;
-  padding: .5rem;
+  padding: 0.5rem;
   background-color: aquamarine;
   cursor: pointer;
 }
@@ -208,7 +212,7 @@ div.bed_container {
   color: black;
   font-weight: bold;
   border-radius: 5%;
-  color:#fff
+  color: #fff;
 }
 #weather p {
   text-align: center;
@@ -257,7 +261,7 @@ div.nairobiTemple {
 div.nairobiContainer {
   text-align: center;
   padding: 10px 20px;
-  font-weight:500;
+  font-weight: 500;
 }
 .nairobiTemple img {
   display: block;
@@ -266,7 +270,7 @@ div.nairobiContainer {
   margin-top: 20px;
   width: 100%;
   border-radius: 5%;
-  box-shadow:5px 5px 5px slategray;
+  box-shadow: 5px 5px 5px slategray;
 }
 /*-----3 day Weather Forecast-------*/
 
@@ -278,7 +282,7 @@ div.nairobiContainer {
   width: 80%;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: #00FFFF;
+  background-color: #00ffff;
 }
 
 #img2,
@@ -288,7 +292,7 @@ div.nairobiContainer {
   margin-left: auto;
   margin-right: auto;
   border: 4px solid black;
-  background-color: #0080FE;
+  background-color: #0080fe;
   border-radius: 50%;
   margin-top: 1rem;
 }
@@ -299,7 +303,9 @@ div.nairobiContainer {
   font-weight: bold;
 }
 
-.temparature, .condition, .humidity {
+.temparature,
+.condition,
+.humidity {
   text-align: center;
   border-radius: 5px;
 }
@@ -316,7 +322,7 @@ div.nairobiContainer {
   width: 80%;
   border-style: groove;
   padding: 5px;
-  background-color: #00FF7F;
+  background-color: #00ff7f;
   color: black;
   font-weight: bold;
   border-radius: 5px;
@@ -334,7 +340,7 @@ div.nairobiContainer {
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  border: 3px outset goldenrod
+  border: 3px outset goldenrod;
 }
 figcaption {
   text-align: center;
@@ -345,14 +351,129 @@ figcaption {
   font-weight: bolder;
   font-size: 20pt;
 }
+#testimony2 {
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+#testimony1 {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+.testimony3 {
+  display: none;
+}
+/*---form layout----*/
+main.form {
+  padding: 1rem;
+  background-color: rgb(65, 253, 244);
+  margin-top: 10px;
+}
+form {
+  margin: 0 auto;
+}
+body {
+  padding: 5px;
+}
+main .formHeading {
+  text-align: center;
+  text-transform: uppercase;
+}
+.thanksform {
+  padding: 1rem;
+  background-color: blue;
+  color: aliceblue;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+}
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: #91a8d0;
+}
+
+form legend {
+  color: black;
+  margin: 0 1rem;
+  padding: 0;
+  font-weight: bold;
+  font-size: larger;
+  background-color: #0d5be1;
+}
+
+form label.top {
+  display: block;
+  padding-top: 1rem;
+  color: rgb(2, 11, 12);
+  font-size: 1rem;
+}
+
+form label.top input {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: black;
+  width: 100%;
+  max-width: 15rem;
+  background-color: lightgrey;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: rgb(28, 14, 155);
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+.memberInfo {
+  border: 6px outset gray;
+  float: right;
+  margin-top: -25rem;
+  margin-right: 10rem;
+  width: 30rem;
+  height: 20rem;
+  display: none;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  color: black;
+  font-size: larger;
+}
 /*-----Footer------*/
-footer, iframe {
+
+footer {
+  background-color: grey;
+}
+footer,
+iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 10px;
 }
-div, iframe {
-  border-top: 2px solid black;
+#mediumMap {
+  display: none;
+}
+div,
+iframe {
   margin-top: 10px;
 }
 .footer3 {
@@ -361,4 +482,252 @@ div, iframe {
   padding-bottom: 15px;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
   padding-top: 10px;
+}
+.footer4 {
+  text-align: center;
+}
+#footerLogo {
+  background-color: black;
+  width: 70%;
+  margin-top: 10px;
+}
+#footerSocial {
+  background-color: white;
+  border-radius: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*....Reservation Page....*/
+.form-flex-container {
+  background-color: rgb(253, 241, 226);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Muli", sans-serif;
+}
+
+.form-flex-container > div {
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 10px;
+  font-size: 14px;
+}
+
+.form-reserve {
+  background-color: rgb(253, 241, 226);
+  text-align: center;
+  height: 100%;
+  border: 3px;
+  border-style: groove;
+  border-color: rgb(165, 144, 116);
+  color: #373737;
+}
+
+.form-reserve h2 {
+  background-color: rgb(253, 241, 226);
+  margin: unset;
+}
+/*---Services Page---*/
+speciallist {
+  list-style-type: circle;
+}
+
+.special {
+  border-style: double;
+  margin: auto;
+  padding: 10px;
+  width: 70%;
+  line-height: 40px;
+  font-size: 20px;
+  background-color: #dcd0c0;
+}
+
+.space {
+  padding: 20px;
+  background-color: rgb(253, 241, 226);
+}
+
+.title {
+  text-align: center;
+  color: whitesmoke;
+  background-color: #373737;
+}
+.specialImg {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* FULL-TIME MISSIONARY PAGE */
+.grid-container {
+  background-color: skyblue;
+  padding-bottom: 20px;
+}
+main.grid-item {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text1 {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 15px;
+  margin-left: 38px;
+  width: 100%;
+  font-style: italic;
+}
+/* Next & previous buttons */
+
+.prev1,
+.next1 {
+  cursor: pointer;
+  position: absolute;
+  /* top: 50%;  */
+  left: 50%;
+  width: fit-content;
+  padding: 16px;
+  margin-top: -40px;
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: #DCD0C0;
+}
+/* Position the "next button" to the right */
+
+.next1 {
+  /* right: 0; */
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+
+.prev1:hover,
+.next1:hover {
+  background-color: rgb(167, 143, 113);
+}
+
+.prev1 {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.numbertext {
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: larger;
+}
+.contactTable {
+  background-color: #E2D8C7;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 25px;
+  overflow: hidden;
+}
+/*----Temple Directory page---*/
+.bizdir {
+  text-align: center;
+  background-color: blue;
+  padding: 1.5rem;
+  color: white;
+  margin-top: 5px;
+}
+.dirMain {
+  background-color: #91a8d0;
+}
+
+#dirBtn {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.grid-current {
+  margin-right: 1rem;
+}
+
+#dirBtn button {
+  background-color: aqua;
+  border: 3px outset black;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#dirBtn button:active {
+  background-color: blueviolet;
+}
+
+#dirBtn button.current {
+  background-color: blue;
+}
+
+#dirCards section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  background-color: #0d5be1;
+  justify-items: center;
+  align-items: center;
+  border-style: outset;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 18rem;
+  height: 24rem;
+  margin: 0 auto;
+}
+
+#dirCards img {
+  max-width: 10rem;
+  margin: 0 auto;
+  border-style: outset;
+  border-width: 0.5rem;
+}
+#dirCards img:hover {
+  box-shadow: 0 0 50px gold;
+}
+
+#dirCards section p {
+  color: black;
+  align-self: center;
+  margin: 0.5em;
+  line-height: 0;
+  font-size: larger;
+}
+
+#dirCards section a {
+  color: white;
+  text-align: center;
+  padding-bottom: 1em;
+  font-size: larger;
+}
+
+#dirList {
+  margin-top: 10px;
+  padding-bottom: 40px;
+}
+
+#dirList section {
+  text-align: center;
+  width: 90%;
+  background-color: #007fff;
+  color: black;
+  margin: 0 auto;
+  font-size: larger;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#dirList section:nth-child(odd) {
+  background-color: #fdfff5;
+}
+
+#dirCards.hidden,
+#dirList.hidden {
+  display: none;
 }

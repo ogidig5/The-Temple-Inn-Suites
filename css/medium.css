@@ -1,0 +1,150 @@
+@media only screen and (min-width: 699px) {
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+#temples {
+  grid-column: 1/4;
+  grid-row: 1;
+  display: flex;
+  height:fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+section#temple-3 {
+  display: block;
+  height:fit-content;
+}
+#temple-4 {
+  display: none;
+}
+#temple-5 {
+  display: none;
+}
+
+section#temple-1, section#temple-2 {
+  margin-right: 10px;
+  height:fit-content;
+}
+.temple-button {
+  display: none;
+}
+div.nairobiTemple {
+  position: relative;
+  grid-column: 1/4;
+  grid-row: 2;
+  margin-top: -3rem;
+  display: flex;
+  padding-left: 15px;
+  height:fit-content;
+  font-size: 15pt;
+  float: left;
+}
+#nairobiImg {
+  height: 250px;
+}
+div.nairobiContainer {
+  text-align: justify;
+}
+#weather {
+  grid-column: 1;
+  grid-row: 3;
+  margin-top: 1rem;
+  height: fit-content;
+  margin-left: 2rem;
+}
+#weatherContainer {
+  grid-column: 2/4;
+  grid-row: 3;
+  margin-top: -1rem;
+  height: fit-content;
+}
+#iconsContainer {
+  display: flex;
+}
+.icons {
+  margin-right: 10px;
+}
+div.bed {
+  grid-column: 1/3;
+  grid-row: 4;
+  margin-top: -14rem;
+  height: fit-content;
+}
+#testimonials {
+  grid-column: 3/4;
+  grid-row: 4;
+  margin-top: -14rem;
+  border: 6px outset grey;
+}
+.testimony3 {
+  display: none;
+}
+.smallMap {
+  display: none;
+}
+
+#footerSocial {
+  background-color: white;
+  border-radius: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footerLogo {
+  margin-top: 40px;
+}
+#mediumMap {
+  display: block;
+  padding-top: 5rem;
+  border: 5px outset black;
+}
+ /* Services*/
+ div.specialImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.photo1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px outset white;
+}
+.photo2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border: 5px outset white;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: .2px;
+  background-color: skyblue;
+  padding: 10px;
+  vertical-align: middle;
+}
+.text1 {
+  margin-left: 100px;
+}
+/* Next & previous buttons */
+
+.prev1,
+.next1 {
+  left: 43%;
+}
+/* Position the "next button" to the right */
+
+.next1 {
+  /* right: 0; */
+  border-radius: 3px 0 0 3px;
+}
+.prev1 {
+  left: 2%;
+  border-radius: 3px 0 0 3px;
+}
+}
